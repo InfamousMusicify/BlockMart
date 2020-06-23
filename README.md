@@ -9,12 +9,13 @@ Or just for people looking to supplement a play-through.
 
 I also advise loading up the world file in single player and messing with the shop yourself a bit.  
 
-
+     Click "Item Shop x.x" and then click download.
+     Unzip the file and look at the contents, there should be a world file and a .nbt file.
      To put the Structure into your World/Server,
      Navigate to the minecraft/saves folder or your server world file,
      and paste the .nbt file into the world/generated/minecraft/structures folder.
-     hop into the world and pull out a structure block.
-
+     hop into the world and pull out a structure block.  and put "item-shop-2.2" into a load block.
+     Remember to load with entities on!
 
 There is a world file included for editing or testing purposes.  
 
