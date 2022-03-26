@@ -25,7 +25,8 @@ There is a world file included for editing or testing purposes.
      Link to a Currency Conversion Spreadsheet:
      https://bit.ly/2ocNumG
 
-I hope the shop serves you well, I spent an entire night making it.  and like a month messing around with it before that.  
+I hope the shop serves you well, I spent a long time building this and then rebuilt it twice.  
+~~I spent an entire night making it.  and like a month messing around with it before that.~~  
 __________________________________________________________________________________________________________________________________________
 
      Check out the Beta-Testing Server!
