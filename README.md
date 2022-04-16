@@ -17,12 +17,10 @@ __Remember to load with entities on!__
   
 ~~There is a world file included for editing or testing purposes.~~  
   
-## [🔗Download🔗](https://github.com/InfamousMusicify/BlockMart/archive/refs/heads/master.zip)
+## [🔗Download🔗](https://github.com/InfamousMusicify/BlockMart/archive/refs/heads/master.zip)  
   
-     Link to a my Forum Post on the mechanics of the shop:
-     https://bit.ly/2orjBiE
-     Link to a Currency Conversion Spreadsheet:
-     https://bit.ly/2ocNumG
+[Link to a Currency Conversion Spreadsheet:](https://bit.ly/2ocNumG)  
+[Link to a my Forum Post on the mechanics of the shop:](https://bit.ly/2orjBiE)  
 
 I hope the shop serves you well, I spent a long time building this and then rebuilt it twice.  
 ~~I spent an entire night making it.  and like a month messing around with it before that.~~  
@@ -31,16 +29,14 @@ ________________________________________________________________________________
 ### Seeking team members:
 __If you believe you are technically skilled and are interested in helping with the project,  
 Programmers and Player Testers are needed!  
-The scale of this project is beyond one persons time/ability.  Even a small team could spend weeks working on this.  The original shop was built over time.
-3.0 is being rebuilt from scratch with the skeleton of the old shops code, but adding over 400 items with a return trade for each is a massive undertaking.  
+The scale of this project is beyond one persons time/ability.  Even a small team could spend weeks working on this.  The original shop was built over time.  
+3.0 is being rebuilt from scratch with the skeleton of the old shops code, but adding over 400 items with a return trade for each is a massive undertaking.   
 If you have the ability to write commands and organize the different sections of minecraft items into a coherent buy and sell walls, please get involved in this project.  Any help is appreciated!__  
 
-### [Donations accepted:🔗](https://www.patreon.com/InfamousMusicify) 
-__All of my projects take an inordinant amount of time to upkeep/create.  I use my free time to make them so any amount support would be much appreciated!  
-if you enjoy these packs and want to see more like them or see them maintained, send me some love!__  
-
-     Check out the Beta-Testing Server!
-     https://bit.ly/2TizsgS
+### [Donations appreciated:🔗](https://www.patreon.com/InfamousMusicify) 
+__All of my projects take an inordinant amount of time to upkeep/create.  
+I use my free time to make them.  Any support would be much appreciated!  
+If you enjoy these packs and want to see more like them and see them maintained, [send me some love](https://www.patreon.com/InfamousMusicify)!__  
 
      Cheers
     -Infamous
