@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Item Shop Info / Commands                                                                      ",
+        "description": ["",
+        {"text":"There is a shop in the world with most items availible for trade.","color":"gold"},{"text":"\n"},
+        {"text":"There is also a currency system to trade with other players,","color":"gold"},{"text":"\n"},
+        {"text":"To pay players, ","color":"dark_green"},{"text":"/trigger pay","color":"green"},{"text":"\n"},
+        {"text":"To check balance, ","color":"dark_green"},{"text":"/trigger money","color":"green"},{"text":" or ","color":"dark_green"},{"text":"/trigger balance","color":"green"},{"text":"\n"},
+        {"text":"Get the top balance values, ","color":"dark_green"},{"text":"/trigger baltop","color":"green"}
+    ],
+    "icon": {
+        "item": "minecraft:polished_blackstone_bricks"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+    },
+    "parent": "inhauspacks:blockmart",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
