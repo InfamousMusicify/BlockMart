@@ -1,24 +1,27 @@
     
 # [BlockMart]()    
 ### Vanilla Item Shop   
-#### (no plugins or scoreboards needed)   
+#### (no plugins or mods needed)   
   __I have Created a Vanilla Command Block Item shop. (Java Edition)  
 And I saved it as a structure block for anyone who is playing vanilla and is looking for an alternative to plugins for an item shop.  
 Or just for people looking to supplement a play-through.  
 I have also added a datapack to the mix which is optional.  Pay other players / check balance and top balances!__
 
 ~~I also advise loading up the world file in single player and messing with the shop yourself a bit.~~  
-  
+
+-    `Click Code▼ - Download ZIP - Extract Zip file`   
 To put the Structure into your World/Server,  
-Navigate to the minecraft/saves folder or your server world file,  
-and paste the .nbt file into the world/generated/minecraft/structures folder.  
-hop into the world and pull out a structure block.  and put "blockmart-3.x(.x)" (structure file name) into a load block.  
-__Remember to load with entities on!__  
+Navigate to the minecraft/saves folder or your server world file and paste the "`blockmart-3.x(.x).nbt`" file into the  
+`world/generated/minecraft/structures` folder. (if this does not exist create the needed folders)  
+`/reload` after pasting if the world is running  
+Hop into the world and pull out a structure block, and put "`blockmart-3.x(.x)`" (structure file name) into a `load` structure block.  
+__!!!`Remember to load with entities on`!!!__  
   
 ~~There is a world file included for editing or testing purposes.~~  
   
 ## [🔗Download🔗](https://github.com/InfamousMusicify/BlockMart/archive/refs/heads/master.zip)  
-  
+[How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)   
+
 [Link to a Currency Conversion Spreadsheet:](https://bit.ly/2ocNumG)  
 [Link to a my Forum Post on the mechanics of the shop:](https://bit.ly/2orjBiE)  
 
@@ -36,7 +39,7 @@ If you have the ability to write commands and organize the different sections of
 ### [Donations appreciated:🔗](https://www.patreon.com/InfamousMusicify) 
 __All of my projects take an inordinant amount of time to upkeep/create.  
 I use my free time to make them.  Any support would be much appreciated!  
-If you enjoy these packs and want to see more like them and see them maintained, [send me some love](https://www.patreon.com/InfamousMusicify)!__  
+If you enjoy these packs and want to see more like them and see them maintained, send me some love!__  
 
      Cheers
     -Infamous
