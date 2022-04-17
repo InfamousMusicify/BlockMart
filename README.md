@@ -20,10 +20,10 @@ __!!!`Remember to load with entities on`!!!__
 ~~There is a world file included for editing or testing purposes.~~  
   
 ## [🔗Download🔗](https://github.com/InfamousMusicify/BlockMart/archive/refs/heads/master.zip)  
-[How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)   
 
-[Link to a Currency Conversion Spreadsheet:](https://bit.ly/2ocNumG)  
-[Link to a my Forum Post on the mechanics of the shop:](https://bit.ly/2orjBiE)  
+**[How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)   
+[Currency Conversion Spreadsheet](https://bit.ly/2ocNumG)  
+[Forum Post on the mechanics of the shop](https://bit.ly/2orjBiE)**  
 
 I hope the shop serves you well, I spent a long time building this and then rebuilt it twice.  
 ~~I spent an entire night making it.  and like a month messing around with it before that.~~  
