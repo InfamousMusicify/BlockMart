@@ -34,7 +34,7 @@ __If you believe you are technically skilled and are interested in helping with 
 Programmers and Player Testers are needed!  
 The scale of this project is beyond one persons time/ability.  Even a small team could spend weeks working on this.  The original shop was built over time.  
 3.0 is being rebuilt from scratch with the skeleton of the old shops code, but adding over 400 items with a return trade for each is a massive undertaking.   
-If you have the ability to write commands and organize the different sections of minecraft items into a coherent buy and sell walls, please get involved in this project.  Any help is appreciated!__  
+If you have the ability to write commands and organize the different sections of minecraft items into coherent buy and sell walls, please get involved in this project.  Any help is appreciated!__  
 
 ### [Donations appreciated:🔗](https://www.patreon.com/InfamousMusicify) 
 __All of my projects take an inordinant amount of time to upkeep/create.  
