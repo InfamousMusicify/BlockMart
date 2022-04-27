@@ -1,6 +1,6 @@
 # blockmart:tick
 # execute as @a unless score @s tpa.pid matches 1.. store result score @s tpa.pid run scoreboard players add #last tpa.pid 1
-execute as @a if score @s tpa.pid matches 1.. unless score @s blockmart.pid matches 1.. store result score @s blockmart.pid run scoreboard players add #last tpa.pid 1
+# execute as @a if score @s tpa.pid matches 1.. unless score @s blockmart.pid matches 1.. store result score @s blockmart.pid run scoreboard players add #last tpa.pid 1
 execute as @a unless score @s blockmart.pid matches 1.. store result score @s blockmart.pid run scoreboard players add #last blockmart.pid 1
 
 # /trigger money / check balance
