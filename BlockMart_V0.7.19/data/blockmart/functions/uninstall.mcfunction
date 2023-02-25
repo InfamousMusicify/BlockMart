@@ -9,6 +9,7 @@ scoreboard objectives remove baltop
 scoreboard objectives remove blockmart.cooldown
 scoreboard objectives remove blockmart.pid
 scoreboard objectives remove 0
+scoreboard objectives remove bmxp
 # scoreboard objectives remove dummy
 # scoreboard objectives remove blockmart.config
 

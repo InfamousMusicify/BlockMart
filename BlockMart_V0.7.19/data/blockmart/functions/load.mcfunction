@@ -14,6 +14,8 @@ scoreboard objectives add baltop trigger "BalTop"
 scoreboard objectives add balance trigger "Balance"
 scoreboard objectives add bal trigger "Bal"
 scoreboard objectives add balancetop trigger "BalanceTop"
+#xp tracker
+scoreboard objectives add bmxp xp
 
 #money trigger "States your current balance"
 #pay trigger "Pay Another Player"
