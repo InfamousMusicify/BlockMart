@@ -31,5 +31,8 @@ scoreboard objectives add blockmart.pid dummy "BlockMart Player ID"
 # scoreboard objectives add dummy dummy "dummy"
 # scoreboard objectives add 0 dummy "0"
 
+scoreboard objectives add blockmart.button minecraft.used:minecraft.polished_blackstone_button
+scoreboard objectives add blockmart.lever minecraft.used:minecraft.lever
+scoreboard objectives add blockmart.button.return dummy
 schedule function blockmart:tick 1s
 schedule function blockmart:decrement_cooldowns 1s
