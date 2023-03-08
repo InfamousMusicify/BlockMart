@@ -1,7 +1,8 @@
 # blockmart:load
-
+scoreboard objectives add blockmart.config
+execute unless score #config blockmart.config matches 0.. run scoreboard players set #config blockmart.config 0
 # WIP Check syntax for essentials money.  i have screenshots.  implement a basic version of essentials money for blockmart for fun for now.
-scoreboard objectives add nuggets dummy "BlockMart Currency"
+scoreboard objectives add nuggets dummy "$$$"
 # check balance
 scoreboard objectives add money trigger "Money"
 # pay a player

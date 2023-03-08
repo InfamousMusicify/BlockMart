@@ -24,8 +24,8 @@ execute as @a[scores={paysend=1..}] run function blockmart:trigger_paysend
 #execute as @a[scores={baltop=1..}] run function blockmart:trigger_balancetop
 
 # 
-execute as @a[scores={blockmart.button=1..}] run function blockmart:pre_money_button
-execute as @a[scores={blockmart.lever=1..}] run function blockmart:pre_money_button
+#execute as @a[scores={blockmart.button=1..}] run function blockmart:pre_money_button
+#execute as @a[scores={blockmart.lever=1..}] run function blockmart:pre_money_button
 # 
 
 # 
