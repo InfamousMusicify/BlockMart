@@ -1,7 +1,7 @@
 #earn
 
 # if player gets money, 
-execute if score @s nuggets >= @s nugget.track run scoreboard players operation @s nugget.track -= @s nuggets
+scoreboard players operation @s nugget.track -= @s nuggets
 
 
 # tellraw player earn money
