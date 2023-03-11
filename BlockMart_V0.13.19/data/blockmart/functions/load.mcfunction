@@ -5,6 +5,7 @@ execute unless score #config blockmart.config matches 0.. run scoreboard players
 scoreboard objectives add nuggets dummy "$$$"
 # money change tracker
 scoreboard objectives add nugget.track dummy
+scoreboard objectives add nugget.track2 dummy
 # check balance
 scoreboard objectives add money trigger "Money"
 # pay a player

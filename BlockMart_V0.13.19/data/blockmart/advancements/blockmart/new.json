@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "blockmart/new"
+        "function": "blockmart:new"
     }
 }
