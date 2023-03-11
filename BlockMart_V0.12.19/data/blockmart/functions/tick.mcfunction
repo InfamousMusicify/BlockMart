@@ -22,8 +22,8 @@ execute as @a[scores={paysend=1..}] run function blockmart:trigger_paysend
 
 # this must be under main money transactions!
 # detect player money change
-execute as @a unless score @s nuggets <= @s nugget.track run function blockmart:money_spend
-execute as @a unless score @s nuggets >= @s nugget.track run function blockmart:money_earn
+execute as @a if score @s nuggets <= @s nugget.track run function blockmart:spend
+execute as @a if score @s nuggets >= @s nugget.track run function blockmart:earn
 # 
 #scoreboard players enable @a balancetop
 #execute as @a[scores={balancetop=1..}] run function blockmart:trigger_balancetop
