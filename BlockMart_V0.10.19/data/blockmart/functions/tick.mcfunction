@@ -1,4 +1,6 @@
 # blockmart:tick
+execute as @a[scores={blockmart.logout=1..}] run function blockmart:logout
+
 # execute as @a unless score @s tpa.pid matches 1.. store result score @s tpa.pid run scoreboard players add #last tpa.pid 1
 execute as @a if score @s tpa.pid matches 1.. unless score @s blockmart.pid matches 1.. store result score @s blockmart.pid run scoreboard players get @s tpa.pid
 execute as @a unless score @s blockmart.pid matches 1.. store result score @s blockmart.pid run scoreboard players add #last blockmart.pid 1
@@ -17,6 +19,11 @@ execute as @a[scores={blockmart.cooldown=1}] run function blockmart:pay_clear
 # 
 scoreboard players enable @a paysend
 execute as @a[scores={paysend=1..}] run function blockmart:trigger_paysend
+
+# this must be under main money transactions!
+# detect player money change
+execute as @a unless score @s nuggets <= @s nugget.track run function blockmart:money_spend
+execute as @a unless score @s nuggets >= @s nugget.track run function blockmart:money_earn
 # 
 #scoreboard players enable @a balancetop
 #execute as @a[scores={balancetop=1..}] run function blockmart:trigger_balancetop

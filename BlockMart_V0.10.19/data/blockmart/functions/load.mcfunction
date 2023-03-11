@@ -1,8 +1,10 @@
 # blockmart:load
 scoreboard objectives add blockmart.config
 execute unless score #config blockmart.config matches 0.. run scoreboard players set #config blockmart.config 0
-# WIP Check syntax for essentials money.  i have screenshots.  implement a basic version of essentials money for blockmart for fun for now.
+# WIP Check syntax for essentials money.  have screenshots.  implement a basic version of essentials money for blockmart for fun for now.
 scoreboard objectives add nuggets dummy "$$$"
+# money change tracker
+scoreboard objectives add nugget.track dummy
 # check balance
 scoreboard objectives add money trigger "Money"
 # pay a player
@@ -30,10 +32,15 @@ scoreboard objectives add blockmart.pid dummy "BlockMart Player ID"
 # scoreboard objectives add blockmart.config dummy "pay cooldown"
 
 # scoreboard objectives add dummy dummy "dummy"
-# scoreboard objectives add 0 dummy "0"
+scoreboard objectives add blockmart.0 dummy "0"
+scoreboard players set #config blockmart.0 0
+#scoreboard objectives add blockmart.button minecraft.used:minecraft.polished_blackstone_button
+#scoreboard objectives add blockmart.lever minecraft.used:minecraft.lever
+#scoreboard objectives add blockmart.button.return dummy
 
-scoreboard objectives add blockmart.button minecraft.used:minecraft.polished_blackstone_button
-scoreboard objectives add blockmart.lever minecraft.used:minecraft.lever
-scoreboard objectives add blockmart.button.return dummy
+
+#logout tracker
+scoreboard objectives add blockmart.logout minecraft.custom:minecraft.leave_game
+
 schedule function blockmart:tick 1s
 schedule function blockmart:decrement_cooldowns 1s
