@@ -8,10 +8,16 @@ execute as @a unless score @s blockmart.pid matches 1.. store result score @s bl
 # /trigger money / check balance
 scoreboard players enable @a money
 execute as @a[scores={money=1..}] run function blockmart:money
-scoreboard players enable @a balance
-execute as @a[scores={balance=1..}] run function blockmart:money
-scoreboard players enable @a bal
-execute as @a[scores={bal=1..}] run function blockmart:money
+#scoreboard players enable @a balance
+#execute as @a[scores={balance=1..}] run function blockmart:money
+#scoreboard players enable @a bal
+#execute as @a[scores={bal=1..}] run function blockmart:money
+scoreboard players enable @a wallet
+execute as @a[scores={wallet=1..}] run function blockmart:wallet
+scoreboard players enable @a deposit
+execute as @a[scores={deposit=1..}] run function blockmart:deposit
+scoreboard players enable @a withdraw
+execute as @a[scores={withdraw=1..}] run function blockmart:withdraw
 # pay player / part 1
 scoreboard players enable @a pay
 execute as @a[scores={pay=1..}] run function blockmart:trigger_pay
@@ -22,9 +28,8 @@ execute as @a[scores={paysend=1..}] run function blockmart:trigger_paysend
 
 # this must be under main money transactions!
 # detect player money change
-# broken displaying negs
+#execute as @a unless score @s nuggets = @s nugget.track run function blockmart:cash_flow
 execute as @a unless score @s nuggets = @s nugget.track if score @s nuggets >= @s nugget.track run function blockmart:earn
-# working!!!
 execute as @a unless score @s nuggets = @s nugget.track if score @s nuggets <= @s nugget.track run function blockmart:spend
 
 
