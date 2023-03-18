@@ -33,7 +33,7 @@ execute as @a[scores={bal=1..}] run function blockmart:money
 scoreboard players enable @a wallet
 execute as @a[scores={wallet=1..}] run function blockmart:wallet
 scoreboard players enable @a bank
-execute as @a[scores={bank=1..}] run function blockmart:bank
+execute as @a[scores={bank=1..}] run function blockmart:wallet
 scoreboard players enable @a cash
 execute as @a[scores={cash=1..}] run function blockmart:cash
 # this must be under main money transactions! (used to be tick_money)

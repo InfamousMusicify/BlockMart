@@ -1,0 +1,6 @@
+#tellraw @s [{"text":"Balance: ","color":"green"},{"text":"$","color":"red"},{"score":{"name":"@s","objective":"nuggets"},"color":"red"}]
+tellraw @s [{"text":"Balance: ","color":"green","clickEvent":{"action":"suggest_command","value":"/trigger deposit set "},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to deposit","color":"white"},{"text":"\nto wallet","color":"gray"}]}},{"text":"$","color":"red"},{"score":{"name":"@s","objective":"nuggets"},"color":"red"}]
+tellraw @s [{"text":"Wallet: ","color":"green","clickEvent":{"action":"suggest_command","value":"/trigger withdraw set "},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to withdraw","color":"white"},{"text":"\nfrom wallet","color":"gray"}]}},{"text":"$","color":"red"},{"score":{"name":"@s","objective":"nugget.wallet"},"color":"red"}]
+#,"clickEvent":{"action":"suggest_command","value":"/trigger withdraw set "},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to withdraw","color":"gray"}]}},
+
+scoreboard players set @s cash 0
