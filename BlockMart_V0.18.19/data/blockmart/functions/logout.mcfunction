@@ -1,5 +1,6 @@
 #say logout test
-scoreboard players operation @s nugget.track = @s nuggets
+#scoreboard players operation @s nugget.track = @s nuggets
+scoreboard players add @s nugget.wallet 0
 scoreboard players set @s blockmart.logout 0
 
 
