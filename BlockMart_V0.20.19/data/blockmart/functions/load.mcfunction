@@ -37,7 +37,7 @@ execute unless score #eggs blockmart.config matches 0.. run scoreboard players s
 # potions
 execute unless score #potions blockmart.config matches 0.. run scoreboard players set #potions blockmart.config 0
 # Enchating Floor
-execute unless score #enchants blockmart.config matches 0.. run scoreboard players set #enchants blockmart.config 0
+execute unless score #enchant blockmart.config matches 0.. run scoreboard players set #enchant blockmart.config 0
 # Commands and weather and stuff
 execute unless score #cmds blockmart.config matches 0.. run scoreboard players set #cmds blockmart.config 0
 # hard coded presets
