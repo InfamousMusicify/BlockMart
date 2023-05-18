@@ -35,7 +35,17 @@ __!!!`Remember to load with entities on`!!!__
 [Currency Conversion Spreadsheet](https://bit.ly/2ocNumG)  
 [Forum Post on the mechanics of the shop](https://bit.ly/2orjBiE)**  
 
+__More Info:__   
+Size: 46x46 Blocks   
+Structures:  
+`blockmart-3.0.x` -BlockMart   
+`blockmart-config` -manual setup (option for none datapack users)   
+`46x46` -empty structure for easy replacement/removal of shop   
 
+__Commands:__   
+`/trigger pay` -target a player to pay (pay playerid)    
+__Admin Commands:__   
+`/function blockmart:config` -blockmart settings    
 
 I hope the shop serves you well, I spent a long time building this and then rebuilt it twice.  
 (1.18s Rebuild was absolutelty astonishingly massive.  Please drop a comment or donation if you liked the project.)
