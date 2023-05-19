@@ -14,11 +14,9 @@ And I saved it as a structure block for anyone who is playing vanilla and is loo
 Or just for people looking to supplement a play-through.  
 I have also added a datapack to the mix which is optional.  Pay other players / check balance and top balances!__
 
-
-
 ~~I also advise loading up the world file in single player and messing with the shop yourself a bit.~~  
 
--    `Click Code▼ - Download ZIP - Extract Zip file`   
+-    `Click Code▼ - Download ZIP - Extract Zip file`   `(or check releases for pre-bundled versions)`     
 To put the Structure into your World/Server,  
 Navigate to the minecraft/saves folder or your server world file and paste the "`blockmart-3.x(.x).nbt`" file into the  
 `world/generated/minecraft/structures` folder. (if this does not exist create the needed folders) (also drop the blockmart-config.nbt in as well)  
@@ -43,7 +41,11 @@ Structures:
 `46x46` -empty structure for easy replacement/removal of shop   
 
 __Commands:__   
-`/trigger pay` -target a player to pay (pay playerid)    
+`/trigger pay set ` -target a player to pay by ID       
+`/trigger paysend set ` -pays targeted player set amount  
+`/trigger money` - `/trigger balance` - `/trigger bal` -check your balance   
+`/trigger bank` - `/trigger wallet` -check bank balance   
+`/trigger cash` -check both balances   
 __Admin Commands:__   
 `/function blockmart:config` -blockmart settings    
 
