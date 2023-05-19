@@ -3,6 +3,7 @@
 scoreboard objectives add blockmart.config dummy
 execute unless score #config blockmart.config matches 0.. run scoreboard players set #config blockmart.config 0
 scoreboard objectives add blockmart.pid dummy "BlockMart Player ID"
+execute unless score #last tpa.pid matches 1.. scoreboard objectives setdisplay list blockmart.pid
 #scoreboard objectives add blockmart.ppid dummy "BlockMart Player Pay ID"
 # Money
 scoreboard objectives add nuggets dummy "$$$"
