@@ -38,6 +38,10 @@ execute unless score #eggs blockmart.config matches 0.. run scoreboard players s
 execute unless score #potions blockmart.config matches 0.. run scoreboard players set #potions blockmart.config 0
 # Enchating Floor
 execute unless score #enchant blockmart.config matches 0.. run scoreboard players set #enchant blockmart.config 0
+# music disc buy trades
+execute unless score #disc blockmart.config matches 0.. run scoreboard players set #disc blockmart.config 0
+# Illegal rares / Spawners, unsilkiable, etc
+execute unless score #illegal blockmart.config matches 0.. run scoreboard players set #illegal blockmart.config 0
 # Commands and weather and stuff
 execute unless score #cmds blockmart.config matches 0.. run scoreboard players set #cmds blockmart.config 0
 # hard coded presets
