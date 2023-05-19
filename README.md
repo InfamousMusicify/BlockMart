@@ -44,7 +44,7 @@ __Commands:__
 `/trigger pay set ` -target a player to pay by ID       
 `/trigger paysend set ` -pays targeted player set amount  
 `/trigger money` - `/trigger balance` - `/trigger bal` -check your balance   
-`/trigger bank` - `/trigger wallet` -check bank balance   
+`/trigger bank` - `/trigger wallet` -check wallet balance   
 `/trigger cash` -check both balances   
 __Admin Commands:__   
 `/function blockmart:config` -blockmart settings    
