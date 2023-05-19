@@ -1,4 +1,5 @@
 # blockmart:load
+#   scoreboard objectives add exmp trigger {"text":"exmp","color":"#724E21"}
 # Config
 scoreboard objectives add blockmart.config dummy
 execute unless score #config blockmart.config matches 0.. run scoreboard players set #config blockmart.config 0
