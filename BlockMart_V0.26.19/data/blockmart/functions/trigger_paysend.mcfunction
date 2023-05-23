@@ -1,5 +1,6 @@
 #blockmart:pay_2
-execute unless entity @a[tag=pay.target,limit=1] run tellraw @s ["",{"text":"No player targeted!","color":"red"}]
+#execute unless entity @a[tag=pay.target,limit=1] run tellraw @s ["",{"text":"No player targeted!","color":"red"}]   -5/22/23
+execute unless entity @s[scores={blockmart.ppid=1..}] run tellraw @s ["",{"text":"No player targeted!","color":"red"}]
 
 # if less nuggets than pay, give error
 execute if score @s nuggets < @s paysend run tellraw @s ["",{"text":"You do not have that much money!","color":"red"}]
@@ -14,7 +15,18 @@ execute if score @s nuggets < @s paysend run trigger money
 ###execute unless entity @s[tag=pay.target] if entity @a[tag=pay.target] if score @s blockmart.pid = @a[tag=pay.target,limit=1] blockmart.ppid run
 
 # if enough nuggets, run pay
-execute unless entity @s[tag=pay.target] if entity @a[tag=pay.target] run execute if score @s nuggets > @s paysend run function blockmart:paysend
+# execute unless entity @s[tag=pay.target] if entity @a[tag=pay.target] run execute if score @s nuggets > @s paysend run function blockmart:paysend   -5/22/23
+
+
+#execute unless entity @s[tag=pay.target] if entity @a[tag=pay.target] 
+#                     # scores now                  #scores now
+#execute unless score @s blockmart.ppid = @s blockmart.pid unless entity
+execute if entity @s[scores={blockmart.ppid=1..}] if score @s nuggets > @s paysend run function blockmart:paysend
+#
+#if score @s nuggets > @s paysend run function blockmart:paysend
+
+
+
 ##############################################################################
 
 # tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
@@ -26,10 +38,4 @@ execute unless entity @s[tag=pay.target] if entity @a[tag=pay.target] run execut
 
 # execute if entity @s[scores={blockmart.cooldown=1}] 
 
-tag @a[tag=pay.target] remove pay.target
-tag @a remove pay.sender
-tag @a remove pay.target
-
-
-tag @s remove pay.sender
 scoreboard players set @s paysend 0

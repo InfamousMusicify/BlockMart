@@ -10,7 +10,8 @@ scoreboard players set @s[scores={nuggets=1..}] blockmart.cooldown 60
 
 
 
-
+tag @a remove pay.sender
+tag @a remove pay.target
 
 ####################################################### check
 # set cooldown opposite player? why tho

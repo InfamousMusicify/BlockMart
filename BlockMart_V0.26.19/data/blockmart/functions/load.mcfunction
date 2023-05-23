@@ -27,7 +27,7 @@ scoreboard objectives add withdraw trigger "Take $ in Wallet"
 #xp tracker
 scoreboard objectives add bmxp xp
 # scoreboard objectives add dummy dummy "dummy"
-
+scoreboard objectives add blockmart.ppid dummy "Pay Player ID"
 
 ################################## logout tracker
 scoreboard objectives add blockmart.logout minecraft.custom:minecraft.leave_game
