@@ -34,7 +34,7 @@ __!!!`Remember to load with entities on`!!!__
 [Forum Post on the mechanics of the shop](https://bit.ly/2orjBiE)**  
 
 __More Info:__   
-Size: 46x46 Blocks   
+Size: 48x48 Blocks   
 Structures:  
 `blockmart-3.0.x` -BlockMart   
 `blockmart-config` -manual setup (option for none datapack users)   
