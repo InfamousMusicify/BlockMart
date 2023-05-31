@@ -12,6 +12,7 @@ tellraw @s [{"selector":"@a[tag=pay.target.2,limit=1]","color":"yellow"},{"text"
 scoreboard players operation @s nuggets -= @s paysend
 
 #resets
+scoreboard players set @s blockmart.cooldown 0
 scoreboard players reset @s blockmart.ppid
 tag @a remove pay.sender.2
 tag @a remove pay.target.2
