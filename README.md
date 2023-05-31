@@ -38,7 +38,7 @@ Size: 48x48 Blocks
 Structures:  
 `blockmart-3.0.x` -BlockMart   
 `blockmart-config` -manual setup (option for none datapack users)   
-`46x46` -empty structure for easy replacement/removal of shop   
+`48x48` -empty structure for easy replacement/removal of shop   
 
 __Commands:__   
 `/trigger pay set ` -target a player to pay by ID       
