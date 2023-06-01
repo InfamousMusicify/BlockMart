@@ -31,6 +31,6 @@ tag @a remove pay.sender
 tag @a remove pay.target
 
 ####################################################### check
-# set cooldown opposite player? why tho
+# set cooldown opposite player? why tho - no longer needed
 #execute unless entity @s[tag=pay.target] as @a[tag=pay.target,limit=1] run scoreboard players set @s blockmart.cooldown 60
 #execute unless entity @s[tag=pay.target] as @a[tag=pay.target,limit=1] run scoreboard players operation @s blockmart.cooldown = #config blockmart.cooldown
