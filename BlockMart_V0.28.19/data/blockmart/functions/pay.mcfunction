@@ -24,7 +24,7 @@ tellraw @s[scores={nuggets=1..}] ["",{"text":"[ ✎ ]","color":"gray","clickEven
 tellraw @s[scores={nuggets=1..}] {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
 # set cooldown - player lockon
 #scoreboard players set @s[scores={nuggets=1..}] blockmart.cooldown 60
-scoreboard players operation @s blockmart.cooldown = #config blockmart.cooldown
+scoreboard players operation @s blockmart.cooldown = #cooldown blockmart.config
 
 
 tag @a remove pay.sender
