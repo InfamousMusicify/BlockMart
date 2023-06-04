@@ -1,4 +1,7 @@
-# blockmart:uninstall
+scoreboard objectives remove blockmart.0
+scoreboard objectives remove 0
+scoreboard objectives remove dummy
+
 scoreboard objectives remove pay
 scoreboard objectives remove paysend
 scoreboard objectives remove money
@@ -14,9 +17,3 @@ scoreboard objectives remove nugget.track
 scoreboard objectives remove nugget.track2
 scoreboard objectives remove blockmart.logout
 scoreboard objectives remove blockmart.config
-
-
-##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### 
-##### Do Not Remove Nuggets #####
-##### scoreboard objectives remove nuggets
-# scoreboard objectives remove tpa.config

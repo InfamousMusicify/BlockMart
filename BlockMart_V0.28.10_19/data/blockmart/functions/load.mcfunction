@@ -14,6 +14,10 @@ scoreboard objectives add blockmart.cooldown dummy "BlockMart Cooldown"
 execute unless score #cooldown blockmart.config matches 0.. run scoreboard players set #cooldown blockmart.config 60
 # logout tracker
 scoreboard objectives add blockmart.logout minecraft.custom:minecraft.leave_game
+# baltop math
+execute unless score #stopper blockmart.config matches 0.. run scoreboard players set #stopper blockmart.config 9
+#execute unless score #baltop blockmart.config matches 0.. run scoreboard players operation #baltop blockmart.config = #stopper blockmart.config
+
 #################################################################################### dummies
 # Money
 scoreboard objectives add nuggets dummy "$$$"
@@ -21,6 +25,7 @@ scoreboard objectives add nugget.wallet dummy "Wallet $$$"
 # money change tracker
 scoreboard objectives add nugget.track dummy
 scoreboard objectives add nugget.track2 dummy
+scoreboard objectives add nugget.track3 dummy
 #################################################################################### triggers
 # check balance
 scoreboard objectives add money trigger "Money"
@@ -58,6 +63,7 @@ execute unless score #cmds blockmart.config matches 0.. run scoreboard players s
 #################################################################################### Finals
 # hard coded presets
 scoreboard players set #zero blockmart.config 0
+scoreboard players set #one blockmart.config 1
 # display IDs if no tpa (needs testing)
 scoreboard objectives add tpa.config dummy "TPA Config"
 execute unless score #cooldown tpa.config matches 0.. run scoreboard objectives setdisplay list blockmart.pid
