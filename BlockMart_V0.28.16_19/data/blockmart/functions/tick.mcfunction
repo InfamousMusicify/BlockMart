@@ -1,5 +1,4 @@
 # blockmart:tick
-# execute as @a unless score @s tpa.pid matches 1.. store result score @s tpa.pid run scoreboard players add #last tpa.pid 1
 execute as @a unless score @s blockmart.pid matches 1.. if score @s tpa.pid matches 1.. store result score @s blockmart.pid run scoreboard players get @s tpa.pid
 execute as @a unless score @s blockmart.pid matches 1.. store result score @s blockmart.pid run scoreboard players add #last blockmart.pid 1
 # logout
@@ -28,25 +27,11 @@ scoreboard players enable @a bank
 execute as @a[scores={bank=1..}] run function blockmart:wallet
 scoreboard players enable @a cash
 execute as @a[scores={cash=1..}] run function blockmart:cash
-# this must be under main money transactions! (used to be tick_money)
-
-
-
-# 
+# cash/etc must be under main money transactions! (used to be tick_money)
 scoreboard players enable @a balancetop
 execute as @a[scores={balancetop=1..}] run function blockmart:trigger_balancetop
 scoreboard players enable @a baltop
 execute as @a[scores={baltop=1..}] run function blockmart:trigger_balancetop
 
-
-
-#execute if score #stopper nuggets matches 10.. run tag @a remove baltopper
-# 
-
-# 
-# 
-# 
-# 
-# 
 
 schedule function blockmart:tick 1s
