@@ -15,7 +15,7 @@ execute unless score #cooldown blockmart.config matches 0.. run scoreboard playe
 # logout tracker
 scoreboard objectives add blockmart.logout minecraft.custom:minecraft.leave_game
 # baltop math
-execute unless score #stopper blockmart.config matches 0.. run scoreboard players set #stopper blockmart.config 9
+execute unless score #stopper blockmart.config matches 0.. run scoreboard players set #stopper blockmart.config 8
 #execute unless score #baltop blockmart.config matches 0.. run scoreboard players operation #baltop blockmart.config = #stopper blockmart.config
 
 #################################################################################### dummies

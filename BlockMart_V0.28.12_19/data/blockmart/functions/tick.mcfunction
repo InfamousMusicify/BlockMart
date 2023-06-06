@@ -37,10 +37,9 @@ scoreboard players enable @a balancetop
 execute as @a[scores={balancetop=1..}] run function blockmart:trigger_balancetop
 scoreboard players enable @a baltop
 execute as @a[scores={baltop=1..}] run function blockmart:trigger_balancetop
-scoreboard players reset #baltop.counter nugget.wallet
-scoreboard players reset #stopper nugget.wallet
-scoreboard players reset #baltop nugget.wallet
-#tag @a remove baltopper
+
+
+
 #execute if score #stopper nuggets matches 10.. run tag @a remove baltopper
 # 
 
