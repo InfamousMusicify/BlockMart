@@ -26,8 +26,9 @@ scoreboard objectives add nugget.wallet dummy "Wallet $$$"
 # money change tracker
 scoreboard objectives add nugget.track dummy
 scoreboard objectives add nugget.track2 dummy
-scoreboard objectives add nugget.track3 dummy
-scoreboard objectives add baltop.track dummy
+
+
+
 #################################################################################### triggers
 # check balance
 scoreboard objectives add money trigger "Money"
@@ -46,6 +47,8 @@ scoreboard objectives add paysend trigger "PaySend"
 # top balances
 scoreboard objectives add baltop trigger "BalTop"
 scoreboard objectives add balancetop trigger "BalanceTop"
+scoreboard objectives add baltop.track dummy
+scoreboard objectives add nugget.track3 dummy
 #################################################################################### shop setup
 # infested stones toggle
 execute unless score #infested blockmart.config matches 0.. run scoreboard players set #infested blockmart.config 0
@@ -67,8 +70,7 @@ execute unless score #cmds blockmart.config matches 0.. run scoreboard players s
 scoreboard players set #zero blockmart.config 0
 scoreboard players set #one blockmart.config 1
 # display IDs if no tpa (needs testing)
-scoreboard objectives add tpa.config dummy "TPA Config"
-execute unless score #cooldown tpa.config matches 0.. run scoreboard objectives setdisplay list blockmart.pid
+schedule function blockmart:load_late 1s
 # scheduled
 schedule function blockmart:tick 1s
 schedule function blockmart:tick_money 1s
