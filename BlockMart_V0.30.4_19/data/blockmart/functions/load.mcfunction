@@ -49,6 +49,7 @@ scoreboard objectives add baltop trigger "BalTop"
 scoreboard objectives add balancetop trigger "BalanceTop"
 scoreboard objectives add baltop.track dummy
 scoreboard objectives add nugget.track3 dummy
+scoreboard objectives add nugget.nug dummy
 #################################################################################### shop setup
 # infested stones toggle
 execute unless score #infested blockmart.config matches 0.. run scoreboard players set #infested blockmart.config 0
