@@ -72,8 +72,8 @@ scoreboard players reset #stopper nugget.track
 scoreboard players reset #baltop nugget.track
 scoreboard players reset #server.total
 scoreboard players reset #player.count
-scoreboard players reset @s baltop.track
 scoreboard players reset #baltoppg
+scoreboard players reset @s baltop.track
 scoreboard players set @s balancetop 0
 scoreboard players set @s baltop 0
 
