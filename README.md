@@ -46,6 +46,8 @@ __Commands:__
 `/trigger money` - `/trigger balance` - `/trigger bal` -check your balance   
 `/trigger bank` - `/trigger wallet` -check wallet balance   
 `/trigger cash` -check both balances   
+`trigger balancetop` - `/trigger baltop` -check top balances 
+
 __Admin Commands:__   
 `/function blockmart:config` -blockmart settings    
 
