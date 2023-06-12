@@ -29,9 +29,9 @@ scoreboard players enable @a cash
 execute as @a[scores={cash=1..}] run function blockmart:cash
 # cash/etc must be under main money transactions! (used to be tick_money)
 scoreboard players enable @a balancetop
-execute as @a[scores={balancetop=1..}] run function blockmart:trigger_balancetop
+execute as @a[scores={balancetop=1..}] run function blockmart:trigger_baltop
 scoreboard players enable @a baltop
-execute as @a[scores={baltop=1..}] run function blockmart:trigger_balancetop
+execute as @a[scores={baltop=1..}] run function blockmart:trigger_baltop
 
 
 schedule function blockmart:tick 1s

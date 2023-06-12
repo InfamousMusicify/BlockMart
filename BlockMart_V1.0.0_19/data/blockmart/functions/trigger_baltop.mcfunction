@@ -20,7 +20,7 @@ scoreboard players add #baltoppg nugget.track2 0
 #scoreboard players add #baltoppg nugget.track3 0
 #execute as @a[tag=!baltoppg,limit=1] run 
 scoreboard players add #baltoppg nugget.track3 1
-function blockmart:baltop_pgs
+function blockmart:try_baltop_pgs
 #execute if score #player.count nugget.track <= #stopper nugget.track2 run scoreboard players add #baltoppg nugget.track3 1
 #execute if score #player.count nugget.track <= #stopper nugget.track2 run 
 ###OG# tellraw @s [{"text":"---- ","color":"yellow"},{"text":"Balancetop","color":"gold"},{"text":" -- ","color":"yellow"},{"text":"Page","color":"gold"},{"text":"1","color":"red"},{"text":"/","color":"gold"},{"score":{"name":"#stopper","objective":"nugget.track3"},"color":"red"},{"text":" ----","color":"yellow"}]
@@ -47,8 +47,8 @@ scoreboard players operation #stopper nugget.track3 = #stopper nugget.track2
 scoreboard players operation #stopper nugget.track3 *= @s baltop.track
 scoreboard players operation #stopper baltop.track = #stopper nugget.track3
 scoreboard players operation #stopper nugget.track3 -= #stopper nugget.track2
-execute as @s[scores={baltop.track=1}] as @a if score @s nuggets > #zero blockmart.config run function blockmart:try_balancetop
-execute as @s[scores={baltop.track=2..}] as @a if score @s nuggets > #zero blockmart.config run function blockmart:balancetop_try_false
+execute as @s[scores={baltop.track=1}] as @a if score @s nuggets > #zero blockmart.config run function blockmart:try_baltop
+execute as @s[scores={baltop.track=2..}] as @a if score @s nuggets > #zero blockmart.config run function blockmart:try_baltop_false
 #################################################################### ####################################################################
 
 #################################################################### next page ####################################################################

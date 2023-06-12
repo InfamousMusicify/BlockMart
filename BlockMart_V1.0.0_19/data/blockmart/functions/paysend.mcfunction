@@ -10,7 +10,9 @@ tellraw @a[tag=!pay.sender.2,tag=pay.target.2,limit=1] [{"selector":"@s","color"
 tellraw @s [{"selector":"@a[tag=pay.target.2,limit=1]","color":"yellow"},{"text":" has received your ","color":"gold"},{"text":"$","color":"red"},{"score":{"name":"@s","objective":"paysend"},"color":"red"}]
 # takes paid nuggets from paying player
 scoreboard players operation @s nuggets -= @s paysend
-
+# stop money change from sending a second message
+scoreboard players operation @s nugget.track = @s nuggets
+scoreboard players operation @a[tag=!pay.sender.2,tag=pay.target.2,limit=1] nugget.track = @a[tag=!pay.sender.2,tag=pay.target.2,limit=1] nuggets
 #resets
 scoreboard players set @s blockmart.cooldown 0
 scoreboard players reset @s blockmart.ppid
