@@ -38,7 +38,7 @@ gamerule commandBlockOutput
 gamerule reducedDebugInfo 
 gamerule logAdminCommands
 
-####################################################
+######################################################################  Not adding these for the sake of saving space. and they dont really need to be there.  adding in a seperate mini shop for admins!  the admin shop.  ##################################
 #admin variable cmds = #v_cmds
 /gamerule maxCommandChainLength x
 /gamerule maxEntityCramming x

@@ -74,7 +74,7 @@ execute unless score #b_cmds blockmart.config matches 0.. run scoreboard players
 execute unless score #d_cmds blockmart.config matches 0.. run scoreboard players set #d_cmds blockmart.config 0
 execute unless score #p_cmds blockmart.config matches 0.. run scoreboard players set #p_cmds blockmart.config 0
 execute unless score #a_cmds blockmart.config matches 0.. run scoreboard players set #a_cmds blockmart.config 0
-execute unless score #v_cmds blockmart.config matches 0.. run scoreboard players set #v_cmds blockmart.config 0
+#execute unless score #v_cmds blockmart.config matches 0.. run scoreboard players set #v_cmds blockmart.config 0
 #################################################################################### Finals
 # hard coded presets
 scoreboard players set #zero blockmart.config 0
