@@ -27,7 +27,7 @@ __!!!`Remember to load with entities on`!!!__
 
 ~~There is a world file included for editing or testing purposes.~~  -will make a new one soon   
 ### Compatibility:  1.13-1.20+    
-## [🔗Download🔗](https://github.com/InfamousMusicify/BlockMart/archive/refs/heads/master.zip)  
+## [🔗Downloads🔗](https://github.com/InfamousMusicify/BlockMart/releases)  
 
 **[How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)   
 [Currency Conversion Spreadsheet](https://bit.ly/2ocNumG)  
