@@ -64,8 +64,17 @@ execute unless score #disc blockmart.config matches 0.. run scoreboard players s
 # Illegal rares / Spawners, unsilkiable, etc
 execute unless score #illegal blockmart.config matches 0.. run scoreboard players set #illegal blockmart.config 0
 # Commands and weather and stuff
-execute unless score #cmds blockmart.config matches 0.. run scoreboard players set #cmds blockmart.config 0
-
+execute unless score #admin_blocks blockmart.config matches 0.. run scoreboard players set #admin_blocks blockmart.config 0
+execute unless score #time blockmart.config matches 0.. run scoreboard players set #time blockmart.config 0
+execute unless score #wthr blockmart.config matches 0.. run scoreboard players set #wthr blockmart.config 0
+#execute unless score #cmds blockmart.config matches 0.. run scoreboard players set #cmds blockmart.config 0
+execute unless score #w_cmds blockmart.config matches 0.. run scoreboard players set #w_cmds blockmart.config 0
+execute unless score #s_cmds blockmart.config matches 0.. run scoreboard players set #s_cmds blockmart.config 0
+execute unless score #b_cmds blockmart.config matches 0.. run scoreboard players set #b_cmds blockmart.config 0
+execute unless score #d_cmds blockmart.config matches 0.. run scoreboard players set #d_cmds blockmart.config 0
+execute unless score #p_cmds blockmart.config matches 0.. run scoreboard players set #p_cmds blockmart.config 0
+execute unless score #a_cmds blockmart.config matches 0.. run scoreboard players set #a_cmds blockmart.config 0
+execute unless score #v_cmds blockmart.config matches 0.. run scoreboard players set #v_cmds blockmart.config 0
 #################################################################################### Finals
 # hard coded presets
 scoreboard players set #zero blockmart.config 0
