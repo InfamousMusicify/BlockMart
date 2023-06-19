@@ -5,7 +5,7 @@ tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_
 " BalTop "
 ,{"text":"(Current: ","color":"gray"},{"score":{"name":"#stopper","objective":"blockmart.config"},"color":"gray"},{"text":")","color":"gray"}]
 
-
+ 
 #tellraw @a[tag=baltop] [{"score":{"name":"#baltop.counter","objective":"nugget.wallet"},"color":"white"},{"text":". ","color":"white"},{"selector":"@s","color":"white"},{"text":", ","color":"white"},{"text":"$","color":"white"},{"score":{"name":"@s","objective":"nuggets"},"color":"white"}]
 
 
